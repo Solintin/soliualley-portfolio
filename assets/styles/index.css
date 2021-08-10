@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+:root {
+  --primary: #348420;
+  --primary-nav-color: rgb(184, 212, 177);
+  --primary-nav-active: rgb(103, 163, 88);
+  --primary-link: hsl(108, 61%, 35.4%);
+  --primary-link-hover: rgb(125, 212, 103);
+  --primary-dark-border: hsl(108, 61%, 22.5%);
+  --primary-image-border: hsl(108, 61%, 41.8%);
+
+  /* --primary: #0a192f;
+  --primary-nav-color: #576d8d;
+  --primary-nav-active: #162842;
+  --primary-link: #17273f;
+  --primary-link-hover: #193257;
+  --primary-dark-border: #02132c;
+  --primary-image-border: #0a2855;
+
+  --primary: #90181e;
+  --primary-nav-color: rgb(216, 174, 176);
+  --primary-nav-active: rgb(172, 82, 86);
+  --primary-link: hsl(357, 71.4%, 36.2%);
+  --primary-link-hover: rgb(172, 82, 86);
+  --primary-dark-border: hsl(357, 71.4%, 23.1%);
+  --primary-image-border: hsl(357, 71.4%, 42.8%); */
+}
+body,
+html,
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
