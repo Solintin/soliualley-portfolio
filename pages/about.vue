@@ -1,27 +1,62 @@
 <template>
   <div>
-    <div class="grid grid-cols-12">
-      <div class="sm:col-span-9 lg:col-span-10 col-span-full">
-        <Main>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-          similique, debitis itaque eveniet sed, ipsam dicta in minus cupiditate
-          fuga reiciendis assumenda magnam, laborum pariatur est. Nemo vel unde
-          ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quo
-          facilis, pariatur adipisci id beatae eligendi, facere enim a expedita
-          mollitia quam similique veniam. Nisi quas fugiat at veritatis mollitia
-          error incidunt, sint accusantium officiis modi exercitationem eveniet
-          ratione laborum ut earum. Necessitatibus, earum aliquam obcaecati
-          commodi illo nulla laudantium. Cum quasi amet ipsum ab, temporibus
-          repellat nesciunt! Qui?
-        </Main>
+    <div class="rounded-lg border border-gray-300">
+      <div class="about w-full py-9 font-black text-center text-white text-5xl">
+        ABOUT ME
       </div>
-      <div class="sm:col-span-3 lg:col-span-2 hidden sm:block">
-        <Sidebar>About page</Sidebar>
+
+      <div class="grid grid-cols-2">
+        <div
+          class="p-10 space-y-2 text-md font-medium leading-7 tracking-tighter"
+        >
+          <p>
+            Hello
+            <span>
+              <img class="h-6 w-6 inline" :src="hand" alt="waving-hand" />
+            </span>
+            I Am Soliu Alley a front End Developer Currently Working With
+            AEIRG(Advanced Engineering Innovation Research Group). An active
+            Software Developer with 1½ years of experience.
+          </p>
+          <p>
+            I Love transforming beautiful designs into full-fledged interactive
+            web applications for various clients.
+          </p>
+          <p>
+            I am an enthusiastic team player, deep creative thinker and a
+            pragmatic problem solver.
+          </p>
+          <p>
+            I give live to awesome designs whcih are rich in scalbility,
+            responsiveness and user friendly, also i write clean, readable and
+            maintanable codes. I absolutely love learning new things and taking
+            on new challenges.
+          </p>
+        </div>
+
+        <div class="grid place-content-center">
+          <div class="border-2 border-green-800 p-1 ">
+            <img src="~/assets/images/Profile-Pic.jpg" class=" rounded-sm h-72 w-84" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import hand from '@/assets/images/hand.png'
+export default {
+  data() {
+    return {
+      hand: hand,
+    }
+  },
+}
 </script>
+<style scoped>
+.about {
+  background: var(--primary);
+}
+
+</style>

@@ -20,7 +20,18 @@
     >
       X
     </div>
+    <div class="grid grid-cols-12">
+      <div class="sm:col-span-9 lg:col-span-10 col-span-full">
+        <Main>
     <Nuxt />
+    </Main>
+      </div>
+      <div class="sm:col-span-3 lg:col-span-2 hidden sm:block">
+        <Sidebar/>
+      </div>
+    </div>
+  
+
   </div>
 </template>
 

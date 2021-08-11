@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main bg-white p-4 rounded-l-md overflow-scroll">
+    <div class="main relative bg-white p-3 sm:rounded-l-md  overflow-scroll">
       <slot />
     </div>
   </div>

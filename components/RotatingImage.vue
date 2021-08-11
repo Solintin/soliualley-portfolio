@@ -5,9 +5,9 @@
       <div class="relative">
         <div
           class="
-            h-32
+            h-28
             absolute
-            w-32
+            w-28
             animate-spin
             border-2 border-white
             mt-6
@@ -41,7 +41,7 @@
         </div>
 
         <img
-          class="rounded-full h-32 w-32 mt-6 ring-white p-1 0bject-fit"
+          class="rounded-full h-28 w-28 mt-6 ring-white p-1 0bject-fit"
           :src="myImage"
           alt=""
         />
@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import myImage from '@/assets/images/Profile-Pic.jpg'
+import myImage from '@/assets/images/Profile-Pic_1.jpg'
 
 export default {
   data() {

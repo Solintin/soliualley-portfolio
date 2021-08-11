@@ -48,7 +48,7 @@
 
       <div
         class="
-          mt-12
+          mt-8
           text-lg
           space-x-6
           flex flex-row
