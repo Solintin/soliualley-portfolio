@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main relative bg-white p-3 sm:rounded-l-md  overflow-scroll">
+    <div class="main relative bg-white p-3  sm:rounded-l-md  overflow-scroll">
       <slot />
     </div>
   </div>
@@ -16,5 +16,6 @@ export default {}
   /* min-width: 200px; */
   height: calc(100vh - 40px);
   max-height: 850px;
+
 }
 </style>
