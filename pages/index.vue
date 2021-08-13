@@ -24,13 +24,7 @@
 export default {
   head() {
     return {
-      script: [
-        {
-          hid: 'type-writer',
-          src: 'https://unpkg.com/typewriter-effect@latest/dist/core.js',
-          defer: true,
-        },
-      ],
+    
     }
   },
   mounted() {

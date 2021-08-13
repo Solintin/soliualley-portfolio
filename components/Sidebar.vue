@@ -134,13 +134,13 @@ export default {
     height: 6rem;
     color: white;
     width: 100%;
-    transition: height 0.7s linear;
+    transition: height 0.3s linear;
     margin-left : -1px;
     margin-top : -1px;
   }
   .side-bar.open-nav {
     height: 24rem;
-    transition: height 0.7s linear;
+    transition: height 0.3s linear;
   }
   li.active::before {
     display: none;

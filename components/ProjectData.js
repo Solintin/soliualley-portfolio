@@ -1,14 +1,14 @@
-import gas360Logo from '~/assets/images/gas360shot.png'
-import aeiexams from '~/assets/images/aeiexams.png'
-import covid from '~/assets/images/Covid19.png'
-import grandrock from '~/assets/images/grandrock.png'
+import gas360shot from '../assets/images/gas360shot.png'
+import aeiexams from '../assets/images/aeiexams.png'
+import covid from '../assets/images/Covid19.png'
+import grandrock from '../assets/images/grandrock.png'
 
 const Projects = [
   {
     id: 1,
     title: 'Gas360',
     desc: 'Gas360 is a Nigeria company that deals in gas selling, which has also took the techniques of the business to the high level, where by users can order for thier gas online, then get thier gas delivered to them in thier preffered location. Also they keep the track of gas usage, gas location of thier customers.',
-    image : gas360Logo,
+    image : gas360shot,
     stacks : ['JavaScript', 'Vue', 'Vuex', 'Vue-Router', 'Firebase', 'Boostrap'],
     link : 'https://gas360.io'
 },

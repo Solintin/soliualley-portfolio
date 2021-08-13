@@ -4,7 +4,7 @@
       title="contact me"
       />
 
-    <div class="h-full py-10 sm:pl-10 pl-6  mt-2 text-white bg-gray-900">
+    <div class="h-full py-10 sm:pl-10 px-5  mt-2 text-white bg-gray-900">
       <div>
         <h1 class="sm:text-4xl text-2xl font-bold my-3 capitalize text-red-600">
           Want to get in touch or need me on your team ?
@@ -27,7 +27,7 @@
               :icon="[`${contact.type}`, `${contact.icon}`]"
             />
 
-            <p class="hover:border-black border-b-2 text-xl ml-4 font-medium">
+            <p class="border-green-500 hover:border-b-2 text-xl text-green-500 ml-4 font-medium">
               <a :href="contact.link" target="_blank">{{ contact.desc }} </a>
             </p>
           </div>
