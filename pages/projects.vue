@@ -14,7 +14,7 @@
         >
           <div :class="project.id % 2 == 0 ? 'sm:order-last' : null">
             <img
-              :src="project.image"
+              :src="require('@/assets/images/'+project.image+'.png')"
               class="rounded-md sm:h-64 sm:w-full h-40 w-3/4 object-fit bg-gray-800 shadow-lg"
               :alt="project.title"
             />
@@ -62,6 +62,16 @@ export default {
       Projects: Projects,
     }
   },
+  // computed: {
+  //   handleImage(fileName){
+  //     if (!fileName) {
+  //       return
+  //     }
+  //     return require('../assets/images/'+fileName)
+  //   },
+    
+
+  // },
   
 }
 </script>
