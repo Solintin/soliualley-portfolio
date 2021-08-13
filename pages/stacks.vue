@@ -1,29 +1,24 @@
 <template>
   <div>
-    <div class="rounded-sm border border-gray-300">
-      <div class="stack w-full py-9 font-black text-center text-white text-5xl">
-        MY SKILLSETS
-      </div>
+    <div class="rounded-sm">
+      <Header title="my skillset" />
 
       <div class="space-y-3 w-full pt-4 text-white">
-       <Languages />
-       <Web />
-       <JsFrameWork />
-       <CssFramework />
-       <DatabaseQuery />
-       <VersionControl />
-       <Utilities />
-       
-        
+        <SkillSet v-for="(skillset, id) in SkillSets" :key="id"
+        :SkillSet="skillset"
+         />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import SkillSet from '~/components/SkillSetData'
 export default {
   data() {
-    return {}
+    return {
+      SkillSets: SkillSet,
+    }
   },
 }
 </script>

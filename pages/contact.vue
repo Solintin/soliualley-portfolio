@@ -1,33 +1,23 @@
 <template>
   <div class="box-border">
-    <div
-      class="
-        contact
-        w-full
-        mb-2
-        py-9
-        font-black
-        text-center text-white text-5xl
-        uppercase
-      "
-    >
-      contact me
-    </div>
+    <Header 
+      title="contact me"
+      />
 
-    <div class="h-full py-10 pl-10 text-white bg-gray-900">
+    <div class="h-full py-10 sm:pl-10 pl-6  mt-2 text-white bg-gray-900">
       <div>
-        <h1 class="text-4xl font-bold my-3 capitalize text-red-600">
+        <h1 class="sm:text-4xl text-2xl font-bold my-3 capitalize text-red-600">
           Want to get in touch or need me on your team ?
         </h1>
-        <p class="text-xl leading-6">
+        <p class="text-xl leading-8">
           I am always open to new job opportunities.
         </p>
-        <p class="text-xl leading-6">
+        <p class="text-xl leading-8">
           Feel free to get in touch with me through the below medium
         </p>
 
         <div
-          class="space-y-4 mt-4"
+          class="space-y-4 mt-6"
           v-for="(contact, idx) in contactLinks"
           :key="idx"
         >

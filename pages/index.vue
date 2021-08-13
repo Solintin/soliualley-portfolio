@@ -3,7 +3,8 @@
     <div
       class="
         absolute
-        top-0
+        sm:top-0
+        top-20
         left-0
         bottom-0
         right-0
@@ -12,7 +13,7 @@
         rounded-lg
       "
     >
-      <div class="h-full w-full bg-opacity-80 bg-black pt-20 pl-16">
+      <div class="h-full w-full bg-opacity-80 bg-black pt-20 pl-8 sm:pl-12 pr-4">
         <div class="sm:text-5xl space-y-4 typed text-white"></div>
       </div>
     </div>
@@ -41,27 +42,31 @@ export default {
     })
 
     typewriter
-      
-      .typeString("  Hello!")
+
+      .typeString("<span class='text-3xl sm:text-5xl'> Hello! </span>")
       .typeString('<div></div>')
       .pauseFor(1000)
-      .typeString(' <span> My Name is Soliu Alley B. </span>')
+      .typeString("<span class='text-3xl sm:text-5xl'> My Name is Soliu Alley B. </span>")
       .pauseFor(1000)
       .typeString('<div></div>')
       .typeString(
-        "I'm a <span class='font-bold text-red-400'> Front-end Developer</span> "
+        " <span class='text-3xl sm:text-5xl' > I'm a</span> <span class='text-3xl sm:text-5xl font-bold text-red-400'> Front-end Developer</span> "
       )
       .pauseFor(700)
       .deleteChars(20)
-      .typeString("<span class='font-bold text-red-400'>Programmer</span>")
+      .typeString(
+        "<span class=' text-3xl sm:text-5xl font-bold text-red-400'>Programmer</span>"
+      )
       .pauseFor(700)
       .deleteChars(10)
-      .typeString("<span class='font-bold text-red-400'>Freelancer</span>")
+      .typeString(
+        "<span class=' text-3xl sm:text-5xl font-bold text-red-400'>Freelancer.</span>"
+      )
       .pauseFor(700)
       .typeString('<div></div>')
       .pauseFor(1000)
       .typeString(
-        "I <span class='text-green-500 font-bold'> Build</span> and give <span class='text-green-500 font-bold'>Live</span> to Ideas and Awesome Designs"
+        " <span class='text-3xl sm:text-5xl'> I <span class='text-green-500 font-bold'> Build</span> and give <span class='text-green-500 font-bold'>Live</span> to Ideas and Awesome Designs.</span>"
       )
       .pauseFor(1000)
       .start()
@@ -69,7 +74,10 @@ export default {
 }
 </script>
 <style scoped>
-.Typerwriter__cursor {
-  display: inline;
+/* @media(max-width: 640px) { */
+
+.Typewriter__cursor {
+  line-height: 3rem !important;
 }
+/* } */
 </style>

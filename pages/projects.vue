@@ -1,30 +1,21 @@
 <template>
   <div>
-    <div
-      class="
-        project
-        w-full
-        mb-2
-        py-9
-        font-black
-        text-center text-white text-5xl
-      "
-    >
-      FEATURED PROJECTS
-    </div>
+    <Header 
+      title="featured projects"
+      />
     <div class="">
-      <div class="bg-gray-900 p-6 space-y-16 text-white">
+      <div class="bg-gray-900 p-6 mt-2 space-y-16 text-white">
         <!-- First Project  -->
 
         <div
-          class="tracker-tigher font-thin text-md gap-8 grid grid-cols-2"
-          v-for="project in Projects"
+          v-for="(project, id) in Projects"
           :key="project.id"
+          :class="[id === Projects.length-1 ? 'border-b-0' : 'border-b', ' border-white pb-4 tracker-tigher font-thin text-md gap-8 grid sm:grid-cols-2 grid-col']"
         >
-          <div :class="project.id % 2 == 0 ? 'order-last' : null">
+          <div :class="project.id % 2 == 0 ? 'sm:order-last' : null">
             <img
               :src="project.image"
-              class="rounded-md h-64 w-full object-fit bg-gray-800 shadow-lg"
+              class="rounded-md sm:h-64 sm:w-full h-40 w-3/4 object-fit bg-gray-800 shadow-lg"
               :alt="project.title"
             />
           </div>

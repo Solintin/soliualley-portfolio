@@ -2,6 +2,7 @@
   <div id="container">
     <div
       class="
+        hidden
         h-4
         w-4
         sm:h-6 sm:w-6
@@ -13,19 +14,19 @@
         p-4
         top-1
         left-1
-        grid
+        sm:grid
         place-content-center
       "
     >
       X
     </div>
-    <div class="wrapper  grid grid-cols-12">
-      <div class="sm:col-span-9 lg:col-span-10 col-span-full">
+    <div class="wrapper   grid grid-cols-12">
+      <div class="sm:col-span-9 lg:col-span-10 col-span-full sm:order-first order-last ">
         <Main>
           <Nuxt />
         </Main>
       </div>
-      <div class="sm:col-span-3 lg:col-span-2 hidden sm:block">
+      <div class="relative sm:col-span-3 lg:col-span-2 col-span-full block">
         <Sidebar />
       </div>
     </div>
