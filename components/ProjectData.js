@@ -1,7 +1,7 @@
-import gas360Logo from '@/assets/images/gas360shot.png'
-import aeiexams from '@/assets/images/aeiexams.png'
-import covid from '@/assets/images/Covid19.png'
-import grandrock from '@/assets/images/grandrock.png'
+import gas360Logo from '@./assets/images/gas360shot.png'
+import aeiexams from '@./assets/images/aeiexams.png'
+import covid from '@./assets/images/Covid19.png'
+import grandrock from '@./assets/images/grandrock.png'
 
 const Projects = [
   {
