@@ -5,9 +5,9 @@
       title="about me"
       />
 
-      <div class="h-full grid grid-cols sm:grid-cols-2  mt-2 bg-gray-900 text-white">
+      <div class="p-5 h-full grid grid-cols sm:grid-cols-2  mt-2 bg-gray-900 text-white">
         <div
-          class="p-10 space-y-2 text-md font-medium leading-7 tracking-tighter"
+          class=" space-y-2 text-md font-medium leading-7 tracking-tighter"
         >
           <p>
             Hello
@@ -27,14 +27,14 @@
             pragmatic problem solver.
           </p>
           <p>
-            I give live to awesome designs whcih are rich in scalbility,
+            I give live to awesome designs which are rich in scalability,
             responsiveness and user friendly, also i write clean, readable and
-            maintanable codes. I absolutely love learning new things and taking
+            maintainable codes. I absolutely love learning new things and taking
             on new challenges.
           </p>
         </div>
 
-        <div class="grid order-first sm:order-last place-content-center">
+        <div class="my-7 grid order-first sm:order-last place-content-center">
           <div class="border-2 border-green-800 p-1 mt-4">
             <img src="~/assets/images/Profile-Pic.jpg" class=" bg-gray-700 rounded-sm h-72 w-84" alt="">
           </div>

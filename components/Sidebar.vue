@@ -3,7 +3,7 @@
     <div
       :class="[
         isOpen ? 'open-nav' : null,
-        'side-bar  absolute right-auto left-0 top-0 sm:rounded-r-md',
+        'side-bar  absolute right-0 left-0 top-0 sm:rounded-r-md',
       ]"
     >
       <div class="w-full flex flex-col">
@@ -11,10 +11,10 @@
           class="
             flex
             justify-between
-            items-center
             sm:inline sm:items-center
             border-b
-            p-4
+            py-4
+            px-5
             border-green-800
           "
         >
@@ -28,7 +28,7 @@
             </h1>
             <p class="text-gray-300 text-md">Front-end Developer</p>
           </div>
-          <div class="sm:hidden" @click="handleNav">
+          <div class="sm:hidden  mt-2" @click="handleNav">
             <span v-if="isOpen">
               <font-awesome-icon class="text-4xl" :icon="['fas', 'times']" />
             </span>
@@ -121,8 +121,7 @@ export default {
 
 <style scoped>
 .side-bar {
-  /* width: 17vw; */
-  /* min-width: 200px; */
+  
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     var(--primary);
   height: calc(100vh - 40px);

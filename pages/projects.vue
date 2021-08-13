@@ -4,7 +4,7 @@
       title="featured projects"
       />
     <div class="">
-      <div class="bg-gray-900 p-6 mt-2 space-y-16 text-white">
+      <div class="bg-gray-900 py-6 px-5 mt-2 space-y-16 text-white">
         <!-- First Project  -->
 
         <div
@@ -24,9 +24,9 @@
             <h1 class="text-2xl font-bold uppercase">{{ project.title }}</h1>
             <p>{{ project.desc }}</p>
             <div class="py-2 text-green-300 flex justify-between">
-              <ul class="space-x-1">
+              <ul>
                 <li
-                  class="inline rounded-full bg-gray-700 px-2"
+                  class="inline rounded-full bg-gray-700 px-2 mr-2"
                   v-for="(tech, id) in project.stacks"
                   :key="id"
                 >

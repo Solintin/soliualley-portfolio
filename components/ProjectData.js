@@ -15,7 +15,7 @@ const Projects = [
   {
     id: 2,
     title: 'online test app',
-    desc: 'The App was built in courstesy of AEI(Academic Excellence Initative), for University Propective Candidates or Admission Seekers. Which is aimed to helped them in Preparatory test against thier enterance examination into university/polytechnic and geeting aquainted and familiar with the univertsity examination system',
+    desc: 'The App was built in courstesy of AEI(Academic Excellence Initative), for University Propective Candidates or Admission Seekers. Which is aimed to help them in Preparatory test against thier enterance examination into the university/polytechnic and geting aquainted and familiar with the univertsity examination system',
     image : aeiexams,
     stacks : ['JavaScript', 'React', 'React-Router', 'Css'],
     link : 'https://aeiexams.netlify.app'
@@ -31,7 +31,7 @@ const Projects = [
   {
     id: 4,
     title: 'GrandRock Estate',
-    desc: 'The Grandrock Estate is mini Estate in Abuja. The Website is aimed to get them on net inother to get to outreach of people and help in their awareness.',
+    desc: 'The Grandrock Estate is mini Estate in Abuja. The Website is aimed to get them on net in other to get to the outreach of people and help to gain awareness.',
     image : grandrock,
     stacks : ['JavaScript', 'Html', 'Css', 'Boostrap'],
     link : 'https://grandrock.netlify.app'
