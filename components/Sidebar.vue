@@ -87,11 +87,11 @@ export default {
           routeName: 'about',
         },
         {
-          link: 'stacks',
-          name: 'Stacks',
+          link: 'skillset',
+          name: 'Skillsets',
           icon: 'tools',
           type: 'fas',
-          routeName: 'stacks',
+          routeName: 'skillset',
         },
         {
           link: 'projects',
