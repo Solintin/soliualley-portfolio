@@ -125,7 +125,6 @@ export default {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     var(--primary);
   height: calc(100vh - 20px);
-  /* max-height: 850px; */
   color: white;
   overflow-y: scroll;
 }

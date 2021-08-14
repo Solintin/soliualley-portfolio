@@ -15,8 +15,9 @@ export default {}
   height: calc(100vh - 20px);
 }
 @media (max-width: 640px) {
-  .main {
+  .main{
     padding-top: 94px;
   }
+
 }
 </style>
