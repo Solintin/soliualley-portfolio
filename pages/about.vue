@@ -1,22 +1,34 @@
 <template>
   <div>
-    <div class="rounded-lg ">
-      <Header 
-      title="about me"
-      />
+    <div class="rounded-lg">
+      <Header title="about me" />
 
-      <div class="p-5 h-full grid grid-cols sm:grid-cols-2  mt-2 bg-gray-900 text-white">
-        <div
-          class=" space-y-2 text-md font-medium leading-7 tracking-tighter"
-        >
+      <div
+        class="
+          p-5
+          h-full
+          grid grid-cols
+          sm:grid-cols-2
+          gap-4
+          mt-2
+          bg-gray-900
+          text-white
+        "
+      >
+        <div class="space-y-2 text-md font-medium leading-7 tracking-tighter">
           <p>
             Hello
             <span>
               <img class="h-6 w-6 inline" :src="hand" alt="waving-hand" />
             </span>
-            I Am Soliu Alley a front End Developer Currently Working With
-            AEIRG(Advanced Engineering Innovation Research Group). An active
-            Software Developer with 1½ years of experience.
+            I Am
+            <span class="font-bold">Soliu Alley</span> a
+            <span class="font-bold"
+              >Front End Developer</span
+            >
+            currently working with AEIRG(Advanced Engineering Innovation
+            Research Group). An active Software Developer with 1½ years of
+            experience.
           </p>
           <p>
             I Love transforming beautiful designs into full-fledged interactive
@@ -36,7 +48,11 @@
 
         <div class="my-7 grid order-first sm:order-last place-content-center">
           <div class="border-2 border-green-800 p-1 mt-4">
-            <img src="~/assets/images/Profile-Pic.jpg" class=" bg-gray-700 rounded-sm h-72 w-84" alt="">
+            <img
+              src="~/assets/images/Profile-Pic.jpg"
+              class="bg-gray-700 rounded-sm h-72 w-84"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -54,7 +70,4 @@ export default {
   },
 }
 </script>
-<style scoped>
-
-
-</style>
+<style scoped></style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main relative bg-white sm:p-3 pt-24  sm:rounded-l-md  overflow-scroll">
+    <div class="main relative bg-white sm:p-3 sm:rounded-l-md overflow-scroll">
       <slot />
     </div>
   </div>
@@ -12,10 +12,11 @@ export default {}
 
 <style scoped>
 .main {
-  /* width: 82vw; */
-  /* min-width: 200px; */
   height: calc(100vh - 20px);
-  /* max-height: 850px; */
-
+}
+@media (max-width: 640px) {
+  .main {
+    padding-top: 94px;
+  }
 }
 </style>

@@ -131,8 +131,8 @@ export default {
 }
 @media (max-width: 640px) {
   .side-bar {
-    height: 6rem;
-    color: white;
+    height: 94px;
+    color: rgb(151, 147, 147);
     width: 100%;
     transition: height 0.3s linear;
     margin-left : -1px;
