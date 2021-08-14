@@ -45,7 +45,7 @@ export default {}
       rgba(219, 160, 160, 0.1)
     )
     var(--primary);
-  padding: 20px;
+  padding: 10px;
   height: 100vh;
   width : 100vw;
 }

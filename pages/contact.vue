@@ -27,7 +27,7 @@
               :icon="[`${contact.type}`, `${contact.icon}`]"
             />
 
-            <p class="border-green-500 hover:border-b-2 text-xl text-green-500 ml-4 font-medium">
+            <p class="hover:underline text-xl text-green-500 ml-4 font-medium">
               <a :href="contact.link" target="_blank">{{ contact.desc }} </a>
             </p>
           </div>

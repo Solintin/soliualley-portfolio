@@ -4,7 +4,7 @@
       class="
         absolute
         sm:top-0
-        top-20
+        top-24
         left-0
         bottom-0
         right-0

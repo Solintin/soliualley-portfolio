@@ -14,8 +14,8 @@ export default {}
 .main {
   /* width: 82vw; */
   /* min-width: 200px; */
-  height: calc(100vh - 40px);
-  max-height: 850px;
+  height: calc(100vh - 20px);
+  /* max-height: 850px; */
 
 }
 </style>
