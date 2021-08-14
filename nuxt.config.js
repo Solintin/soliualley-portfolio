@@ -79,4 +79,12 @@ export default {
       brands : true
     }
     },
+    //Deployment 
+    target: 'static',
+
+    //Make Refreshing on  SPA workflow
+
+    generate: {
+      fallback: true
+    }
 }
