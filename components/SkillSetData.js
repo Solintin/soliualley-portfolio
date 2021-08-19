@@ -50,9 +50,10 @@ const SkillSet = [
     title: 'javascript framework',
     technologies: [
       { name: 'VueJs', icon: vuejs },
+      { name: 'NuxtJs', icon: nuxt },
+      { name: 'Vuex', icon: vuex },
       { name: 'React', icon: react },
       { name: 'Redux', icon: redux },
-      { name: 'Vuex', icon: vuex },
     ],
   },
   {
