@@ -29,13 +29,13 @@
           <div>Hello!</div>
           <div>My Name is Soliu Alley B.</div>
           <div>
-            <span class="text-3xl sm:text-5xl"> I'm a</span>
-            <span class="text-3xl sm:text-5xl font-bold text-red-400">
+            <span class=""> I'm a</span>
+            <span class=" font-bold text-red-400">
               Front-end Developer, Programmer</span
             >
             also I'm
-            <span class="text-3xl sm:text-5xl font-bold text-red-400"
-              >Freelancer</span
+            <span class=" font-bold text-red-400"
+              >Freelancer.</span
             >
           </div>
           <div>
