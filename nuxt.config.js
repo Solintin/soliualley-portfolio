@@ -13,11 +13,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      {
-        hid: 'type-writer',
-        src: 'https://unpkg.com/typewriter-effect@latest/dist/core.js',
-        defer: true,
-      },
+    
     ],
     
 

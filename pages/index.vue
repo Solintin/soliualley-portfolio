@@ -33,7 +33,7 @@
             <span class=" font-bold text-red-400">
               Front-end Developer, Programmer</span
             >
-            also I'm
+            also I'm a
             <span class=" font-bold text-red-400"
               >Freelancer.</span
             >
