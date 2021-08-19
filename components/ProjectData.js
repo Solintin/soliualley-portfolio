@@ -3,7 +3,7 @@ const Projects = [
   {
     id: 1,
     title: 'Gas360',
-    desc: 'Gas360 is a Nigeria company that deals in gas selling, which has also took the techniques of the business to the high level, where by users can order for thier gas online, then get thier gas delivered to them in thier preffered location. Also they keep the track of gas usage, gas location of thier customers.',
+    desc: 'Gas360 is a Nigeria company that deals in the sales and delivery of cooking gas, which has also took the techniques of the business to the high level in such a way that users can order for thier gas online, then get thier gas delivered to them in thier preffered location. Also they keep the track of gas usage, gas location of thier customers.',
     image : "gas360",
     stacks : ['JavaScript', 'Vue', 'Vuex', 'Vue-Router', 'Firebase', 'Boostrap'],
     link : 'https://gas360.io'
