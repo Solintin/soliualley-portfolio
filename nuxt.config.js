@@ -6,16 +6,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Soliu Alley - Frontend Web Developer' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { property="og:url", content="https://soliualley.netlify.app" },
-      { property="og:type", content="website" },
-      { property="og:title", content="Soliu Alley - Frontend Web Developer" },
-      { property="og:description", content="Soliu Alley - Frontend Web Developer" },
-      {name="twitter:card", content="summary_large_image"}
-      {name="twitter:site", content="@solintin"}
-      {name="twitter:creator", content="@solitin"}
-      {name="twitter:title", content="Alley Soliu"}
-      {name="twitter:description", content="Soliu Alley - Frontend Web Developer"}
+  
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
