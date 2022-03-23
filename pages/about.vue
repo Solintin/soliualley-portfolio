@@ -21,13 +21,12 @@
             <span>
               <img class="h-6 w-6 inline" :src="hand" alt="waving-hand" />
             </span>
-            I Am
+            I am
             <span class="font-bold">Soliu Alley</span> a
             <span class="font-bold"
-              >Front End Developer</span
+              >Full Stack Software Engineer</span
             >
-            currently working with AEIRG(Advanced Engineering Innovation
-            Research Group). An active Software Developer with 1½ years of
+            currently working with Jand2Gidi- A Logistic Company in Lagos, Nigeria. An active Software Developer with about 3years of building
             experience.
           </p>
           <p>
@@ -41,7 +40,7 @@
           <p>
             I give live to awesome designs which are rich in scalability,
             responsiveness and user friendly, also i write clean, readable and
-            maintainable codes. I absolutely love learning new things and taking
+            maintainable codes. I absolutely love learning new and cutting edge technologies and taking
             on new challenges.
           </p>
         </div>

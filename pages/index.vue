@@ -31,7 +31,7 @@
           <div>
             <span class=""> I'm a</span>
             <span class=" font-bold text-red-400">
-              Front-end Developer, Programmer</span
+              FullStack Software Engineer, Programmer</span
             >
             also I'm a
             <span class=" font-bold text-red-400"

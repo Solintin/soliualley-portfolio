@@ -26,7 +26,7 @@
             <h1 class="text-3xl text-semibold sm:mt-10 text-white">
               Soliu Alley
             </h1>
-            <p class="text-gray-300 text-md">Front-end Developer</p>
+            <p class="text-gray-300 text-md">FullStack Developer</p>
           </div>
           <div class="sm:hidden  mt-2" @click="handleNav">
             <span v-if="isOpen">

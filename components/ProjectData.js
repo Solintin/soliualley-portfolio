@@ -10,6 +10,14 @@ const Projects = [
 },
   {
     id: 2,
+    title: 'College of Education',
+    desc: 'A community for peer-to-peer learning platform equipped with the required tool for teaching and implenting the knowledge of science and technology. Distinuished professors are ready to build your future all ahead of you.',
+    image : "cohst",
+    stacks : ['JavaScript', 'Nuxt', 'Vuex', 'Vue', 'Vue-Router', 'Node.js', 'Express', 'MongoDb', 'Tailwind', 'ChakraUI'],
+    link : 'https://project-egbiancohst.web.app/'
+},
+  {
+    id: 3,
     title: 'Gas360',
     desc: 'Gas360 is a Nigeria company that deals in the sales and delivery of cooking gas, which has also took the techniques of the business to the high level in such a way that users can order for thier gas online, then get thier gas delivered to them in thier preffered location. Also they keep the track of gas usage, gas location of thier customers.',
     image : "gas360",
@@ -17,7 +25,7 @@ const Projects = [
     link : 'https://gas360.io'
 },
   {
-    id: 3,
+    id: 4,
     title: 'online test app',
     desc: 'The App was built in courstesy of AEI(Academic Excellence Initative), for University Propective Candidates or Admission Seekers. Which is aimed to help them in Preparatory test against thier enterance examination into the university/polytechnic and geting aquainted and familiar with the univertsity examination system',
     image : "aeiexams",
@@ -25,7 +33,7 @@ const Projects = [
     link : 'https://aeiexams.netlify.app'
 },
   {
-    id: 4,
+    id: 5,
     title: 'Covid Update',
     desc: 'The SPA(single Page App) was built during the outbreak of deadly corona virus (2020), Which automaticallly fetches the live update and counting of the affected, dead, recovered and the likes. Which helps in the awareness of the virus, and protection against it.',
     image : "Covid19",
@@ -33,7 +41,7 @@ const Projects = [
     link : 'https://cov19update.netlify.app'
 },
   {
-    id: 5,
+    id: 6,
     title: 'GrandRock Estate',
     desc: 'The Grandrock Estate is mini Estate in Abuja. The Website is aimed to get them on net in other to get to the outreach of people and help to gain awareness.',
     image : "grandrock",

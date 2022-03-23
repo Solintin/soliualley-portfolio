@@ -11,6 +11,9 @@ import nuxt from '~/assets/images/nuxt-js.png'
 import react from '~/assets/images/react.png'
 import redux from '~/assets/images/redux.png'
 import vuex from '~/assets/images/vuex.png'
+import node from '~/assets/images/node.png'
+import mongodb from '~/assets/images/mongodb.png'
+import express from '~/assets/images/express.png'
 
 import boostrap from '~/assets/images/boostrap.png'
 import tailwind from '~/assets/images/tailwind.png'
@@ -54,6 +57,9 @@ const SkillSet = [
       { name: 'Vuex', icon: vuex },
       { name: 'React', icon: react },
       { name: 'Redux', icon: redux },
+      { name: 'NodeJS', icon: node },
+      { name: 'Express', icon: express },
+      { name: 'MongoDB', icon: mongodb },
     ],
   },
   {
