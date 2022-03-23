@@ -18,11 +18,11 @@ const Projects = [
 },
   {
     id: 3,
-    title: 'Gas360',
-    desc: 'Gas360 is a Nigeria company that deals in the sales and delivery of cooking gas, which has also took the techniques of the business to the high level in such a way that users can order for thier gas online, then get thier gas delivered to them in thier preffered location. Also they keep the track of gas usage, gas location of thier customers.',
-    image : "gas360",
-    stacks : ['JavaScript', 'Vue', 'Vuex', 'Vue-Router', 'Firebase', 'Boostrap'],
-    link : 'https://gas360.io'
+    title: 'RiverGate',
+    desc: 'They help clients generate, manage, and maintain wealth by providing extensive professional business advice from internationally renowned specialists with wide range of specialized skills.',
+    image : "rivergate",
+    stacks : ['JavaScript', 'React', 'Context API', 'React-Router', 'Firebase', 'Tailwind'],
+    link : 'https://rvbookstore.web.app/'
 },
   {
     id: 4,
