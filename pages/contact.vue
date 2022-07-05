@@ -49,7 +49,7 @@ export default {
           type: 'fab',
         },
         {
-          link: 'mailto:soliualley@gmial.com',
+          link: 'mailto:soliualley@gmail.com',
           desc: 'soliualley@gmail.com',
           icon: 'envelope',
           type: 'fas',

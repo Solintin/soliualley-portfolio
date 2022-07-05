@@ -48,7 +48,7 @@
         <div class="my-7 grid order-first sm:order-last place-content-center">
           <div class="border-2 border-green-800 p-1 mt-4">
             <img
-              src="~/assets/images/Profile-Pic.jpg"
+              src="~/assets/images/MyPortrait.jpg"
               class="bg-gray-700 rounded-sm h-72 w-84"
               alt=""
             />
